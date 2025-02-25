@@ -11,10 +11,20 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url('images/pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.8);
     color: #fff;
     padding: 1rem;
 }
@@ -35,25 +45,15 @@ body {
 }
 
 .hero {
-    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 4rem 2rem;
     color: #fff;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('images/background_1.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: blur(5px);
-    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
@@ -89,15 +89,10 @@ body {
     border-radius: 5px;
 }
 
-main {
-    padding: 2rem;
-}
-
 footer {
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.8);
     text-align: center;
     padding: 1rem;
-    margin-top: auto;
 }
 
 .footer-logo {
