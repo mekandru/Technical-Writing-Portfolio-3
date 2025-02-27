@@ -180,6 +180,26 @@ footer {
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
+/* Specific Icon Backgrounds for Contrast */
+.linkedin-icon {
+    background-color: white; /* White background for LinkedIn icon */
+    border-radius: 50%; /* Rounded shape for the icon */
+    padding: 4px; /* Add padding inside the circle */
+}
+
+.github-icon {
+    background-color: white; /* White background for GitHub icon */
+    border-radius: 50%; /* Rounded shape for the icon */
+    padding: 4px; /* Add padding inside the circle */
+}
+
+.gmail-icon {
+    background-color: white; /* White background for Gmail icon */
+    border-radius: 50%; /* Rounded shape for the icon */
+    padding: 4px; /* Add padding inside the circle */
+}
+
+
 @media screen and (max-width: 768px) {
     .nav-links {
         flex-direction: column;
