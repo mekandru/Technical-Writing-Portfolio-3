@@ -129,15 +129,21 @@ main {
 
 /* Footer Styles */
 footer {
-    background-color: black; 
-    text-align: center;
+    background-color: black;
+    color: white;
     padding: 1rem;
-    color: white; /* White text */
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space between logo and content */
+    align-items: center; /* Align items vertically in the center */
 }
 
 .footer-logo {
     width: 100px;
     height: auto;
+}
+
+.footer-content {
+    text-align: right; /* Align text to the right */
 }
 
 .social-links a {
