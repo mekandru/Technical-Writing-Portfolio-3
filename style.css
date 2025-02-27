@@ -251,11 +251,25 @@ footer {
         flex-direction: column;
     }
     
-    .hero h1 {
+    .hero h1{
         font-size: 2rem;
     }
     
-    .hero-text {
-        font-size: 1rem;
+    .hero-text{
+    font-size: 1.2rem; /* Adjust font size */
+    max-width: 800px; /* Limit text width */
+    margin: 1rem auto 2rem; /* Center and add spacing */
+    color: #fff; /* Default text color is white */
     }
+
+    /* Highlight specific words with different colors */
+.hero-text::before {
+    display: block;
+    content: "Experienced Technical Writer with a data engineering background, skilled in creating clear, concise, and effective documentation for complex technical systems. Passionate about bridging the gap between development teams and end-users.";
+    background: linear-gradient(90deg, #fff 50%, #007bff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 }
