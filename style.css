@@ -155,7 +155,7 @@ footer {
 
 .social-links {
    display: flex; /* Use flexbox for icons */
-    justify-content: flex-end; /* Align icons to the right */
+    justify-content: center; /* Align icons to the right */
     gap: 15px; /* Add spacing between icons */
    
 }
