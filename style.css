@@ -97,7 +97,7 @@ main {
 
 /* Footer Styles */
 footer {
-    background-color: #36454F; /* Dark gray-blue background */
+    background-color: black; 
     text-align: center;
     padding: 1rem;
     color: white; /* White text */
