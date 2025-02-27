@@ -95,10 +95,12 @@ main {
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* Footer Styles */
 footer {
-    background-color: rgba(244, 244, 244, 0.8);
+    background-color: #36454F; /* Dark gray-blue background */
     text-align: center;
     padding: 1rem;
+    color: white; /* White text */
 }
 
 .footer-logo {
@@ -107,9 +109,32 @@ footer {
 }
 
 .social-links a {
-    font-size: 24px;
     margin: 0 10px;
-    color: #333;
+    font-size: 24px;
+}
+
+.social-links a i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* LinkedIn Icon */
+.linkedin-icon {
+    color: #0077B5; /* LinkedIn blue */
+}
+
+/* GitHub Icon */
+.github-icon {
+    color: #6e5494; /* GitHub gray-purple */
+}
+
+/* Gmail Icon */
+.gmail-icon {
+    color: #D44638; /* Gmail red */
+}
+
+/* Hover Effects for Icons */
+.social-links a:hover i {
+    transform: scale(1.2); /* Slight zoom effect on hover */
 }
 
 @media screen and (max-width: 768px) {
