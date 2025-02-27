@@ -15,14 +15,27 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter:blur(5px);/* Blurs the entire background image */
+   
+}
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background_5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(8px); /* Blurs the background image */
+    z-index: -1; /* Places the background behind all content */
 }
 
 .content-wrapper {
     flex: 1;
     display: flex;
     flex-direction: column;
-    backdrop-filter:blur(5px); /* Applies blur to the content wrapper */
+    z-index:1; /* Ensures content appears above the blurred background */
 }
 
 .navbar {
@@ -55,8 +68,6 @@ body {
     text-align: center;
     padding: 4rem 2rem;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-    backdrop-filter: blur(5px); /* Adds blur effect behind this section */
 }
 
 .hero h1 {
