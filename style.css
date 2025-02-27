@@ -110,12 +110,20 @@ body {
     margin-bottom:4rem;
 }
 
-.highlight-blue {
-    color: #007bff;
+.highlight-yellow {
+    color: #F1C334;
 }
 
-.highlight-pink {
-    color: #ff69b4;
+.highlight-purple {
+    color: #4F506D;
+}
+
+.highlight-mauve{
+color: #7C566F;    
+}
+
+.highlight-teal{
+    color: #92DEE6;
 }
 
 .button {
