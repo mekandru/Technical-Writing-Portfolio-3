@@ -75,8 +75,8 @@ body {
 
 .hero .profile-wrapper {
     position: relative; /* Required for layering */
-    width: 150px; /* Adjust size of the circular background */
-    height: 150px; /* Ensure it's a perfect circle */
+    width: 180px; /* Adjust size of the circular background */
+    height: 110px; /* Ensure it's a perfect circle */
     background-color: white; /* White circular background */
     border-radius: 50%; /* Make it circular */
     display: flex; /* Center the image inside the circle */
@@ -86,7 +86,7 @@ body {
 }
 
 .hero img {
-    width: 120px; /* Size of the profile picture */
+    width: 200px; /* Size of the profile picture */
     height: auto; /* Maintain aspect ratio */
     border-radius: 50%; /* Make the image circular */
 }
