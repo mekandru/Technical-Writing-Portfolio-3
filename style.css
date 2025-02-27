@@ -15,12 +15,14 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    filter:blur(5px);/* Blurs the entire background image */
 }
 
 .content-wrapper {
     flex: 1;
     display: flex;
     flex-direction: column;
+    backdrop-filter:blur(5px); /* Applies blur to the content wrapper */
 }
 
 .navbar {
