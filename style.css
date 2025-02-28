@@ -66,6 +66,10 @@ body {
     color: #000000; /* Change color on hover */
 }
 
+.home-color{
+    color: #E7416D;
+}
+
 .hero {
     flex: 1;
     display: flex;
