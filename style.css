@@ -63,7 +63,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #007bff; /* Change color on hover */
+    color: #000000; /* Change color on hover */
 }
 
 .hero {
@@ -120,7 +120,7 @@ body {
 }
 
 .highlight-purple {
-    color: #5A4D6C;
+    color: #4C4668;
 }
 
 .highlight-pink{
