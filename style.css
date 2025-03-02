@@ -63,12 +63,13 @@ body {
 }
 
 .nav-links a:hover {
-    color: #4C4668; /* Change color on hover */
+    color: #E7416D; /* Change color on hover */
 }
 
+/*
 .home-color{
     color: #E7416D;
-}
+}*/
 
 .hero {
     flex: 1;
@@ -133,6 +134,9 @@ color: #E7416D;
 
 .highlight-teal{
     color: #92DEE6;
+}
+.highlight-white{
+    color: white;
 }
 
 .button {
