@@ -282,7 +282,7 @@ footer {
     /* Highlight specific words with different colors */
 .hero-text::before {
     display: block;
-    content: "Experienced Technical Writer with a data engineering background, skilled in creating clear, concise, and effective documentation for complex technical systems. Passionate about bridging the gap between development teams and end-users.";
+    /*content: "Experienced Technical Writer with a data engineering background, skilled in creating clear, concise, and effective documentation for complex technical systems. Passionate about bridging the gap between development teams and end-users";*/
     background: linear-gradient(90deg, #fff 50%, #007bff 50%);
     background-clip: text;
     -webkit-background-clip: text;
