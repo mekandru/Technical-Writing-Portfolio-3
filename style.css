@@ -132,11 +132,11 @@ body {
 color: #E7416D;    
 }
 
-.highlight-teal{
-    color: #92DEE6;
+.highlight-darkturquoise{
+    color: darkturquoise;
 }
-.highlight-darkgrey{
-    color: #465b70;
+.highlight-darkcyan{
+    color: darkcyan;
 }
 
 .button {
