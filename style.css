@@ -124,8 +124,8 @@ body {
     color: #F1C334;
 }
 
-.highlight-purple {
-    color: #4C4668;
+.highlight-deeppink {
+    color: deeppink;
 }
 
 .highlight-pink{
@@ -135,8 +135,12 @@ color: #E7416D;
 .highlight-darkturquoise{
     color: darkturquoise;
 }
-.highlight-darkcyan{
-    color: darkcyan;
+.highlight-deepskyblue{
+    color: deepskyblue;
+}
+
+.highlight-magenta{
+    color: magenta;
 }
 
 .button {
