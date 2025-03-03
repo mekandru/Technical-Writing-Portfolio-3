@@ -27,7 +27,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: blur(12px); /* Blurs the background image */
+    filter: blur(20px); /* Blurs the background image */
     z-index: -1; /* Places the background behind all content */
 }
 
