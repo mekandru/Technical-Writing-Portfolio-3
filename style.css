@@ -63,13 +63,9 @@ body {
 }
 
 .nav-links a:hover {
-    color: #E7416D; /* Change color on hover */
+    color: deeppink; /* Change color on hover */
 }
 
-/*
-.home-color{
-    color: #E7416D;
-}*/
 
 .hero {
     flex: 1;
@@ -137,10 +133,6 @@ color: #E7416D;
 }
 .highlight-deepskyblue{
     color: deepskyblue;
-}
-
-.highlight-magenta{
-    color: magenta;
 }
 
 .button {
