@@ -166,6 +166,14 @@ main {
 }
 
 /* About Card */
+
+.about-heading {
+    font-size:1.5rem;
+    font-family: math;
+    color:darkturquoise;
+}
+
+
 #about-card-wrapper {
     display: flex;
     justify-content: center;
