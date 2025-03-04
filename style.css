@@ -338,29 +338,44 @@ footer {
 /* Portfolio Grid */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr); /* Only 2 cards per row */
+    gap: 2rem; /* Space between cards */
 }
 
 /* Portfolio Card */
 .portfolio-card {
-    background-color: white;
+    background-color: white; /* Default background color (overridden by classes below) */
     border-radius: 10px;
     padding: 1.5rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Ensure content stacks vertically */
-    justify-content: space-between; /* Space between card content and footer */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space between content and footer */
 }
 
-.portfolio-card h2 {
-    font-size: 1.5rem;
-    color: #333;
+/* Different Pastel Background Colors */
+.pastel-blue {
+    background-color: #dceeff; /* Light blue */
 }
 
-.portfolio-card p {
-    font-size: 1rem;
-    color: #555;
+.pastel-pink {
+    background-color: #ffdce5; /* Light pink */
+}
+
+.pastel-yellow {
+    background-color: #fff9cc; /* Light yellow */
+}
+
+.pastel-green {
+    background-color: #dfffe0; /* Light green */
+}
+
+.pastel-purple {
+    background-color: #f3e5ff; /* Light purple */
+}
+
+.pastel-orange {
+    background-color: #ffe8cc; /* Light orange */
 }
 
 /* Card Footer */
@@ -372,16 +387,20 @@ footer {
     display: inline-block;
     text-decoration: none;
     color: white;
-    background-color: black;
+    background-color: darkturquoise;
     padding: 0.5rem 1rem;
     border-radius: 5px;
 }
 
 .card-footer a:hover {
-     color: black;
-    background-color: white;
+    background-color: deepskyblue;
 }
 
+@media screen and (max-width: 768px) {
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* One card per row on small screens */
+    }
+}
 
 @media screen and (max-width: 768px) {
     .nav-links {
