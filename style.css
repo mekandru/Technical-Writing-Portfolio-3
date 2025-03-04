@@ -207,7 +207,8 @@ main {
 }
 
 #skills-card h2 {
-    font-size: 24px;
+    font-size: 30px;
+    color: darkturquoise;
 }
 
 /* Flex container for skills */
@@ -218,6 +219,8 @@ main {
 
 .skills-category {
     flex: 1;
+    font-size: small;
+    font-family: math;
 }
 
 .skills-category h3 {
