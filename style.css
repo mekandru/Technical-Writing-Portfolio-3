@@ -338,8 +338,9 @@ footer {
 /* Portfolio Grid */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Only 2 cards per row */
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
     gap: 2rem; /* Space between cards */
+    justify-content: center; /* Center align the grid */
 }
 
 /* Portfolio Card */
@@ -351,6 +352,7 @@ footer {
     display: flex;
     flex-direction: column; /* Stack content vertically */
     justify-content: space-between; /* Space between content and footer */
+    max-width: 350px; /* Reduce card width */
 }
 
 /* Different Pastel Background Colors */
@@ -379,21 +381,13 @@ footer {
 }
 
 /* Card Footer */
-.card-footer {
-    margin-top: auto; /* Push footer to the bottom of the card */
-}
-
 .card-footer a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: darkturquoise;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
+    text-decoration: underline; /* Make it a link */
+    color: darkblue; /* Dark blue link color */
 }
 
 .card-footer a:hover {
-    background-color: deepskyblue;
+    color: navy; /* Slightly darker blue on hover */
 }
 
 @media screen and (max-width: 768px) {
