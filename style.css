@@ -99,7 +99,7 @@ body {
 }
 
 .hero h1 {
-    font-size: 2.5rem; /* Adjust font size for name */
+    font-size: 2.0rem; /* Adjust font size for name */
     font-weight: bold; /* Bold text for name */
     margin-top: 1rem; /* Add spacing above the name */
 }
@@ -169,7 +169,7 @@ main {
 
 #about-card-wrapper {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 80vh; /* Ensures card is vertically centered */
