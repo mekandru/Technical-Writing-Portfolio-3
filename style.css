@@ -206,7 +206,7 @@ main {
     max-width: 1200px;
 }
 
-#skills-card h2 {
+#skills-card-wrapper h2 {
     font-size: 30px;
     color: darkturquoise;
 }
