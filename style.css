@@ -15,7 +15,8 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-   
+    font-size: small;
+   font-family: math;
 }
 .background{
     position: fixed;
