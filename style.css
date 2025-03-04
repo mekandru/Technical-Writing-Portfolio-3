@@ -331,8 +331,10 @@ footer {
 
 #portfolio-wrapper p {
     font-size: 1.2rem;
-    color: #dcdcdc;
-    margin-bottom: 3rem;
+    color: darkgray;
+    margin-bottom: 1rem;
+    font-size: small;
+    font-family:math;
 }
 
 /* Portfolio Grid */
