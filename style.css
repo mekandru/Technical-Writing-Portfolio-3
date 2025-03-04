@@ -193,9 +193,16 @@ main {
 /* Centering the Skills Card */
 #skills-card-wrapper {
     display: flex; /* Use flexbox for centering */
+    flex-direction:column;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     min-height: 100vh; /* Make the wrapper take full viewport height */
+}
+.skills-title {
+    text-align: center; /* Center-align the title */
+    font-size: 2.5rem; /* Adjust font size */
+    color: darkturquoise; /* Title color */
+    margin-bottom: 2rem; /* Add space below the title */
 }
 
 /* Skills Card Styles */
