@@ -418,7 +418,7 @@ footer {
 /* Card Footer */
 .card-footer a {
     text-decoration: underline; /* Make it a link */
-    color: darkturquoise; /* darkturquoise link color */
+    color: #45A5F5; /* darkturquoise link color */
 }
 
 .card-footer a:hover {
