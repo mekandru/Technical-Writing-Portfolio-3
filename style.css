@@ -430,11 +430,10 @@ footer {
     color: #45A5F5; /* Change "connect" link color to darkblue */
     text-decoration: underline; /* Underline for better visibility */
 }
-/*
-.connect-link:hover {
-    color: navy; /* Slightly darker blue on hover */
+.connect-link:visited{
+    color: navy;
 }
-*/
+
 html {
     scroll-behavior: smooth;
 }
