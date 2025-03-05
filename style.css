@@ -427,11 +427,11 @@ footer {
 }
 */
 .connect-link {
-    color: #45A5F5; /* Change "connect" link color to darkblue */
+    color: deeppink; 
     text-decoration: underline; /* Underline for better visibility */
 }
 .connect-link:visited{
-    color: navy;
+    color: greenyellow;
 }
 
 html {
