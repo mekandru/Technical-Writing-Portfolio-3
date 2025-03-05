@@ -418,13 +418,22 @@ footer {
 /* Card Footer */
 .card-footer a {
     text-decoration: underline; /* Make it a link */
-    color: darkblue; /* Dark blue link color */
+    color: darkturquoise; /* darkturquoise link color */
 }
 
 .card-footer a:hover {
     color: navy; /* Slightly darker blue on hover */
 }
 
+.connect-link {
+    color: #45A5F5; /* Change "connect" link color to darkblue */
+    text-decoration: underline; /* Underline for better visibility */
+}
+/*
+.connect-link:hover {
+    color: navy; /* Slightly darker blue on hover */
+}
+*/
 html {
     scroll-behavior: smooth;
 }
