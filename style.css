@@ -352,7 +352,7 @@ footer {
 }
 .portfolio-title{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     color: darkturquoise;
     margin-bottom: 1rem;
     font-family: serif;
@@ -386,6 +386,8 @@ footer {
     flex-direction: column; /* Stack content vertically */
     justify-content: space-between; /* Space between content and footer */
     max-width: 350px; /* Reduce card width */
+    font-size: small;
+    font-family: math;
 }
 
 /* Different Pastel Background Colors */
