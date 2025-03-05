@@ -425,6 +425,9 @@ footer {
     color: navy; /* Slightly darker blue on hover */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 @media screen and (max-width: 768px) {
     .portfolio-grid {
